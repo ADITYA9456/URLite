@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="https://img.icons8.com/fluency/96/link--v1.png" width="80" />
+  <h1>URLite 🔗</h1>
+  <p><strong>The best URL shortener on the web — simple, fast, and reliable.</strong></p>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## 🚀 About URLite
 
-```bash
+**URLite** is a sleek and powerful tool designed to shorten long URLs into clean and memorable links. Whether you're managing links for social media, business campaigns, or personal use, URLite helps simplify the process with smart redirection, link analytics, and customization options.
+
+Try it out and experience seamless performance with a touch of modern UI.
+
+---
+
+## 🌐 Live Preview
+
+> 🖼️ ![Homepage Preview](./e1225f5f-e2a0-425f-9dd8-119cef4d48b0.png)  
+> 🛠️ ![Shortener Preview](./8f5e1c36-432b-4d77-96f5-11ecd551f0dc.png)
+
+---
+
+## 🔧 Features
+
+- ✨ **Custom Short URLs** – Create branded, memorable links.
+- 📊 **Analytics & Tracking** – Monitor performance with real-time data.
+- ⚡ **Fast Redirects** – Blazing-fast and smooth redirection.
+- 🔒 **Secure & Private** – Privacy-focused and safe to use.
+- 🧠 **Minimal UI** – Clean, elegant, and user-friendly interface.
+
+---
+
+## 🛠️ Built With
+
+- **Next.js** – Frontend Framework  
+- **Node.js + Express** – Backend API  
+- **MongoDB** – NoSQL Database  
+- **Tailwind CSS** – UI Styling  
+
+---
+
+## 📁 Environment Setup
+
+To run this project locally, create a `.env` file in the root directory with the following variables:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+NEXT_PUBLIC_HOST=http://localhost:3000
+
+
+
+
+git clone https://github.com/yourusername/urlite.git
+cd urlite
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
