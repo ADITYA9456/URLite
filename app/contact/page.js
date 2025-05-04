@@ -68,7 +68,7 @@ const Contact = () => {
                         Contact Us <Image width={50} height={50} src="/contact.gif" alt="" />
                     </h1>
                     <p className="text-gray-600 text-base mb-6">
-                        We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.
+                        We&apos;d love to hear from you! Fill out the form below and we'll get back to you as soon as possible.
                     </p>
                     <div className="flex flex-col text-lg gap-5">
                         <input
