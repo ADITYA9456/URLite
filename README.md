@@ -14,10 +14,9 @@ Try it out and experience seamless performance with a touch of modern UI.
 
 ---
 
-## 🌐 Live Preview
-
-> 🖼️ ![Homepage Preview](./e1225f5f-e2a0-425f-9dd8-119cef4d48b0.png)  
-> 🛠️ ![Shortener Preview](./8f5e1c36-432b-4d77-96f5-11ecd551f0dc.png)
+## 🌐 Live Preview ( Frountend )
+  
+🛠️  Vercel:- https://urlite-eight.vercel.app/
 
 ---
 
